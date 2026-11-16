@@ -2,6 +2,19 @@
 
 The customer-facing portal for Northstar. Customers sign in here to review their orders and manage their account.
 
+To get started with Northstar as a customer, you should install the northstar CLI:
+
+```sh
+brew install northstar
+```
+
+Then, you can start creating an account and project with:
+
+```sh
+northstar auth create-account
+northstar auth create-project
+```
+
 ## Stack
 
 - [Next.js](https://nextjs.org) (App Router, Cache Components)
